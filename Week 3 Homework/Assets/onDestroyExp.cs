@@ -4,7 +4,7 @@ using System.Collections;
 public class onDestroyExp : MonoBehaviour {
 
 	void Start () {
-		Destroy (gameObject, gameObject.GetComponent<ParticleSystem>().duration);
+		Destroy (gameObject, 5);
 
 	}
 }
